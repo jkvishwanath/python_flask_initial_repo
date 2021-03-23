@@ -53,3 +53,7 @@ $ exit
 # remove venv
 $ pipenv --rm
 
+to clear cache issues
+pipenv lock --pre --clear
+
+pip install pipenv --upgrade
